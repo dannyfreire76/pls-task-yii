@@ -7,8 +7,13 @@
 
 <!doctype html>
 <html lang="en">
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="https://www.pls3rdlearning.com/wp-content/uploads/2019/11/arrow-favicon.png" sizes="32x32" />
+<link rel="icon" href="https://www.pls3rdlearning.com/wp-content/uploads/2019/11/arrow-favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.pls3rdlearning.com/wp-content/uploads/2019/11/arrow-favicon.png" />
+<meta name="msapplication-TileImage" content="https://www.pls3rdlearning.com/wp-content/uploads/2019/11/arrow-favicon.png" />
 <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css"/>
 <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css"/>
 

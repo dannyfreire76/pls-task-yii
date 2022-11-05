@@ -82,7 +82,14 @@ class SiteController extends Controller {
 				$this->redirect(Yii::app()->user->returnUrl);
 			}
 		}
-		$this->render('login', ['model' => $model]);
+
+        $latestUpdate = Util::fetchRss('', 1);
+        $latestBlog = Util::fetchRss('latestBlogFeedUrl', 1);
+        $this->render('login', [
+            'model'         => $model,
+            'latestUpdate'  => $latestUpdate,
+            'latestBlog'   => $latestBlog
+        ]);
 	}
 
 	/**

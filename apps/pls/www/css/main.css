@@ -129,6 +129,14 @@ div.breadcrumbs a {
     color: #fff;
 }
 
+.swiper-slide .content .bubble.desc .read-more {
+    display: none;
+}
+
+.swiper-slide .content .bubble.desc p {
+    margin-bottom: 0;
+}
+
 .swiper-pagination-bullet-active {
     border: 1px solid #fff;
 }
