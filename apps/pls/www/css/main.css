@@ -1,0 +1,142 @@
+:root {
+    --swiper-theme-color: #1a6a90;
+    --swiper-pagination-bullet-size: 0.5em;
+    --swiper-pagination-bullet-inactive-color: #fff;
+    --swiper-pagination-bullet-inactive-opacity: 0.9;
+    --swiper-navigation-size: 1.25em !important;
+    --swiper-navigation-color: #1a6a90;
+}
+
+header {
+    padding: 1.5em 0;
+}
+
+nav .nav-pills .nav-link.active,
+nav .nav-pills .nav-link:hover,
+.nav-pills .show > .nav-link {
+    background: #0e435f;
+    color: #fff;
+}
+
+nav .nav-link {
+    color: #4a9dca;
+}
+
+nav .nav-item {
+    margin: 0 0.25em;
+}
+
+div.breadcrumbs {
+    font-size: 0.9em;
+    padding: 0.75em 0.5em;
+}
+
+div.breadcrumbs span {
+    font-weight: bold;
+}
+
+main h1,
+main h2,
+main h3 {
+    color: #444;
+}
+
+main h1 {
+    font-size: 1.7em;
+    margin: 0 0 1em;
+}
+
+main h2 {
+    font-size: 1.5em;
+}
+main h3 {
+    font-size: 1.3em;
+}
+
+div.breadcrumbs a {
+    color: #1a6a90;
+}
+
+#logo {
+    max-width: 230px;
+}
+
+.contact-form .form-group {
+    width: 100%;
+}
+
+#slides {
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    height: 32em;
+    max-height: 680px;
+    background: #0e435f;
+}
+
+.swiper-slide {
+    height: 32em;
+    max-height: 680px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2em 3em;
+    background-repeat: no-repeat;
+}
+
+.swiper-slide div.col-md-6 {
+    padding: 0.25em;
+}
+
+.swiper-slide h3 {
+    color: #fff;
+}
+
+.swiper-slide .content i.fal {
+    font-size: 4em;
+    color: #fff;
+    opacity: 0.37;
+    margin-bottom: .2em;
+}
+
+.swiper-slide .content a.btn-primary {
+    font-size: 0.9em;
+    line-height: 1.3em;
+    background: #fff;
+    color: #1a6a90 !important;
+    margin-top: 1em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+}
+
+.swiper-slide .content a.btn-primary:hover {
+    background: #eee;
+}
+
+.swiper-slide .content .bubble {
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px 15px;
+    line-height: 1em;
+    height: 100%;
+    text-align: left;
+}
+
+.swiper-slide .content .bubble a {
+    color: #fff;
+}
+
+.swiper-pagination-bullet-active {
+    border: 1px solid #fff;
+}
+
+footer {
+    padding: 1em;
+    margin: 2em 0;
+    font-size: 0.8em;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
